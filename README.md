@@ -17,21 +17,26 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: <img src="my_gif_walkthrough_url" width="800">
+Vulnerability #1: Session Hijacking
 
-Session Hijacking
+<img src="<img src="https://github.com/bnj111/week8_assign/blob/master/blue_session_hijack_2.gif" width="800">
+
+
 I had two browsers, one logined in as the victim and looked at my session ID, copied and pasted the victims session into the attackers unloged session and now the attacker had access to the staff area.
 
-Vulnerability #2: <img src="my_gif_walkthrough_url" width="800">
+Vulnerability #2: SQL injection
+
+<img src="https://github.com/bnj111/week8_assign/blob/master/blue_sql_1.gif" width="800">
 
 SQL injection
 I went to a salesperson and added ' OR SLEEP(5)=0--' to the url and after 5 seconds it changed to another person but the ID remained the same.
 
 ## Green
 
-Vulnerability #1: <img src="my_gif_walkthrough_url" width="800">
+Vulnerability #1: Cross-Site Scripting
 
-Cross-Site Scripting
+<img src="https://github.com/bnj111/week8_assign/blob/master/green_css_1.gif" width="800">
+
 I went to the feedback area and posted a comment with an alert script. I then logged into the staff area and checked the feedback and there was the alert.
 
 Vulnerability #2: <img src="my_gif_walkthrough_url" width="800">
@@ -39,9 +44,10 @@ Vulnerability #2: <img src="my_gif_walkthrough_url" width="800">
 
 ## Red
 
-Vulnerability #1: <img src="my_gif_walkthrough_url" width="800">
+Vulnerability #1: Insecure Direct Object Reference
 
-Insecure Direct Object Reference
+<img src="https://github.com/bnj111/week8_assign/blob/master/red_idor_1.gif" width="800">
+
 I clicked a salesperson made public and changed the ID in the URL to a person I knew was not supposed to be made public.
 
 Vulnerability #2: <img src="my_gif_walkthrough_url" width="800">
