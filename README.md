@@ -19,7 +19,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: Session Hijacking
 
-<img src="<img src="https://github.com/bnj111/week8_assign/blob/master/blue_session_hijack_2.gif" width="800">
+<img src="https://github.com/bnj111/week8_assign/blob/master/blue_session_hijack_2.gif" width="800">
 
 
 I had two browsers, one logined in as the victim and looked at my session ID, copied and pasted the victims session into the attackers unloged session and now the attacker had access to the staff area.
