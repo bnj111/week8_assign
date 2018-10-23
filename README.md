@@ -1,7 +1,7 @@
 # week8_assign
 # Project 8 - Pentesting Live Targets
 
-Time spent: 12 hours spent in total
+Time spent: 7 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -39,8 +39,10 @@ Vulnerability #1: Cross-Site Scripting
 
 I went to the feedback area and posted a comment with an alert script. I then logged into the staff area and checked the feedback and there was the alert.
 
-Vulnerability #2: <img src="my_gif_walkthrough_url" width="800">
+Vulnerability #2: Username Enumeration
+<img src="https://github.com/bnj111/week8_assign/blob/master/Green_user_2.gif" width="800">
 
+This demonstrates that there is a Username Enumeration because it the login successful attempt gets bold when a user exists.
 
 ## Red
 
@@ -50,10 +52,8 @@ Vulnerability #1: Insecure Direct Object Reference
 
 I clicked a salesperson made public and changed the ID in the URL to a person I knew was not supposed to be made public.
 
-Vulnerability #2: <img src="my_gif_walkthrough_url" width="800">
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
+<img src="https://github.com/bnj111/week8_assign/blob/master/red_csrf_2.gif" width="800">
 
+This demostrates that someone can inject html code in the feedback area and perform cross site request forgery
 
-
-## Notes
-
-Describe any challenges encountered while doing the work
