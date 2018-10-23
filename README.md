@@ -53,7 +53,7 @@ Vulnerability #1: Insecure Direct Object Reference
 I clicked a salesperson made public and changed the ID in the URL to a person I knew was not supposed to be made public.
 
 Vulnerability #2: Cross-Site Request Forgery (CSRF)
-<img src="https://github.com/bnj111/week8_assign/blob/master/red_csrf_2.gif" width="800">
+<img src="https://github.com/bnj111/week8_assign/blob/master/red_csrf.gif" width="800">
 
 This demostrates that someone can inject html code in the feedback area and perform cross site request forgery
 
